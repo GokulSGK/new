@@ -25,7 +25,10 @@ public class unique {
                         a = ArrayUtils.remove(a,j);
 		}
 		}}
-        System.out.print(a);
+	    for(i=0;i<a.length;i++)
+	    {
+        System.out.print(a[i]);
+	    }
     }
     
 }
