@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Palindrome {
 	public static void main(String args[])
 	{
-		System.out.println("Enter the number");
 		int num,reverse = 0,temp;
 		Scanner s = new Scanner(System.in);
 		num = s.nextInt();
@@ -16,11 +15,11 @@ public class Palindrome {
 		}
 		if(num==reverse)
 		{
-			System.out.println("The given Number is Palindrome");
+			System.out.println("Palindrome");
 		}
 		else
 		{
-			System.out.println("The given Number is Not Palindrome");
+			System.out.println("Not Palindrome");
 		}
 	}
 
